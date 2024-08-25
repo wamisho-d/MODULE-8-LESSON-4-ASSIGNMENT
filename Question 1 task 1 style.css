@@ -1,0 +1,6 @@
+/* Apply RGBA Background Colors */
+.background-fade {
+            background-color: rgba(0, 0, 255, 0.495); /* Blue color with 50% opacity */
+            padding: 20px; /* optional: Add some padding for better visiblity */
+            border: 1px solid #000; /* optional: Add a border to see the div's boundaries */
+        }
