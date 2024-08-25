@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initail-scale=1.0">
+    <title>RGBA Background Colors</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <style> 
+        .background-fade {
+            background-color: rgba(0, 0, 255, 0.495); /* Blue color with 50% opacity */
+            padding: 20px; /* optional: Add some padding for better visiblity */
+            border: 1px solid #000; /* optional: Add a border to see the div's boundaries */
+        }
+
+    </style>
+</head>
+</body>
+     <div class="background-fade">
+        This div has a semi-transparent blue background.
+    </div>
+</body>
+</html>
