@@ -1,0 +1,38 @@
+/* Basic button styling */
+.animated-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    padding: 15px 32px;
+    border: none;
+    text-align: center;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+/* Hover effect */
+.interactive-button:hover {
+    background-color: rgba(255, 0, 123, 0.8); /* RGBA background color on hover */
+}
+
+/* Keyframe animation for the button click */
+@keyframes buttom-click {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Apply the animation on button click */
+.animated-button:active {
+    animation: button-click 0.2s forwards;
+}
+
