@@ -1,0 +1,17 @@
+/* styles.css */
+@keyframes rotate {
+    form {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360eg);
+
+    }
+}
+
+.rotating-icon {
+    display: inline-block; /* Ensure the element is inline-block for proper rotation */
+    animation: rotate 2s linear infinite; /* 2s is the duration, linear is the timing function, infinite for continous rotation */
+    
+}
